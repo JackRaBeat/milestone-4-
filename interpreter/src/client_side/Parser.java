@@ -34,7 +34,9 @@ public Parser getInstance()
 			if(c!=null)	
 			{
 					i+=c.getArguments(tokens,i,args);// one line of calling the stringtoarg parser in each cmd.	
-					c.doCommand(args);//the parser is the invoker										
+					c.doCommand(args);//the parser is the invoker		
+					//testing github
+					int test;
 			}
 					
 			}
